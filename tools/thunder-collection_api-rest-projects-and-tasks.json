@@ -1,0 +1,260 @@
+{
+    "clientName": "Thunder Client",
+    "collectionName": "api-rest-projects-and-tasks",
+    "collectionId": "95e26fd8-2d9f-4e9b-b2d1-8549a3761bff",
+    "dateExported": "2024-08-29T04:54:08.008Z",
+    "version": "1.2",
+    "folders": [
+        {
+            "_id": "bc38d1b2-d89b-473f-9dec-b1de975bd60e",
+            "name": "projects",
+            "containerId": "",
+            "created": "2024-08-27T07:02:50.631Z",
+            "sortNum": 20000
+        },
+        {
+            "_id": "b52d0508-f103-41ba-b8bd-edf23b63cceb",
+            "name": "tasks",
+            "containerId": "",
+            "created": "2024-08-27T07:02:50.632Z",
+            "sortNum": 30000
+        },
+        {
+            "_id": "51044362-7600-43a0-a76a-42ce8e361a3d",
+            "name": "graphics",
+            "containerId": "",
+            "created": "2024-08-28T11:35:55.500Z",
+            "sortNum": 40000
+        }
+    ],
+    "requests": [
+        {
+            "_id": "4da0a473-d868-45dc-a181-dbc51eba322b",
+            "colId": "95e26fd8-2d9f-4e9b-b2d1-8549a3761bff",
+            "containerId": "bc38d1b2-d89b-473f-9dec-b1de975bd60e",
+            "name": "get All",
+            "url": "http://localhost:3000/projects?search=Create Api Rest&skip=0&take=3",
+            "method": "GET",
+            "sortNum": 10000,
+            "created": "2024-08-27T07:02:50.631Z",
+            "modified": "2024-08-28T22:25:00.830Z",
+            "headers": [],
+            "params": [
+                {
+                    "name": "search",
+                    "value": "Create Api Rest",
+                    "isPath": false
+                },
+                {
+                    "name": "skip",
+                    "value": "0",
+                    "isPath": false
+                },
+                {
+                    "name": "take",
+                    "value": "3",
+                    "isPath": false
+                }
+            ]
+        },
+        {
+            "_id": "acc8fd2c-007c-44f6-a703-bba58c06d353",
+            "colId": "95e26fd8-2d9f-4e9b-b2d1-8549a3761bff",
+            "containerId": "b52d0508-f103-41ba-b8bd-edf23b63cceb",
+            "name": "get All",
+            "url": "http://localhost:3000/tasks?search=backend&skip=0&take=5",
+            "method": "GET",
+            "sortNum": 10000,
+            "created": "2024-08-27T07:02:50.632Z",
+            "modified": "2024-08-28T22:29:01.832Z",
+            "headers": [],
+            "params": [
+                {
+                    "name": "search",
+                    "value": "backend",
+                    "isPath": false
+                },
+                {
+                    "name": "skip",
+                    "value": "0",
+                    "isPath": false
+                },
+                {
+                    "name": "take",
+                    "value": "5",
+                    "isPath": false
+                }
+            ]
+        },
+        {
+            "_id": "9b2eb96a-6acd-41f2-89a5-d5dd7f402957",
+            "colId": "95e26fd8-2d9f-4e9b-b2d1-8549a3761bff",
+            "containerId": "51044362-7600-43a0-a76a-42ce8e361a3d",
+            "name": "get All",
+            "url": "http://localhost:3000/graphics",
+            "method": "GET",
+            "sortNum": 10000,
+            "created": "2024-08-28T11:35:55.500Z",
+            "modified": "2024-08-28T11:36:31.914Z",
+            "headers": []
+        },
+        {
+            "_id": "2d903250-f907-4d1b-8768-081c64b98863",
+            "colId": "95e26fd8-2d9f-4e9b-b2d1-8549a3761bff",
+            "containerId": "bc38d1b2-d89b-473f-9dec-b1de975bd60e",
+            "name": "get One",
+            "url": "http://localhost:3000/projects/1",
+            "method": "GET",
+            "sortNum": 20000,
+            "created": "2024-08-27T07:02:50.634Z",
+            "modified": "2024-08-29T04:35:16.879Z",
+            "headers": []
+        },
+        {
+            "_id": "3054279b-eb77-40a5-bbd1-6679bc420152",
+            "colId": "95e26fd8-2d9f-4e9b-b2d1-8549a3761bff",
+            "containerId": "b52d0508-f103-41ba-b8bd-edf23b63cceb",
+            "name": "get One",
+            "url": "http://localhost:3000/tasks/12",
+            "method": "GET",
+            "sortNum": 20000,
+            "created": "2024-08-27T07:02:50.635Z",
+            "modified": "2024-08-28T22:29:47.434Z",
+            "headers": []
+        },
+        {
+            "_id": "71405a84-0111-4cb5-96fc-443763fec63a",
+            "colId": "95e26fd8-2d9f-4e9b-b2d1-8549a3761bff",
+            "containerId": "51044362-7600-43a0-a76a-42ce8e361a3d",
+            "name": "get One",
+            "url": "http://localhost:3000/graphics/projects/14",
+            "method": "GET",
+            "sortNum": 20000,
+            "created": "2024-08-28T11:35:55.501Z",
+            "modified": "2024-08-29T04:29:49.399Z",
+            "headers": []
+        },
+        {
+            "_id": "63fec0f7-ae03-40b7-9f06-faf75dd346be",
+            "colId": "95e26fd8-2d9f-4e9b-b2d1-8549a3761bff",
+            "containerId": "bc38d1b2-d89b-473f-9dec-b1de975bd60e",
+            "name": "get  One or Many",
+            "url": "http://localhost:3000/projects/1/tasks?search=api&skip=0&take=3",
+            "method": "GET",
+            "sortNum": 25000,
+            "created": "2024-08-27T08:40:49.145Z",
+            "modified": "2024-08-29T04:35:31.804Z",
+            "headers": [],
+            "params": [
+                {
+                    "name": "search",
+                    "value": "api",
+                    "isPath": false
+                },
+                {
+                    "name": "skip",
+                    "value": "0",
+                    "isPath": false
+                },
+                {
+                    "name": "take",
+                    "value": "3",
+                    "isPath": false
+                }
+            ]
+        },
+        {
+            "_id": "566ab728-cd1c-4cec-a978-be04ffe5b2b1",
+            "colId": "95e26fd8-2d9f-4e9b-b2d1-8549a3761bff",
+            "containerId": "bc38d1b2-d89b-473f-9dec-b1de975bd60e",
+            "name": "post Create",
+            "url": "http://localhost:3000/projects",
+            "method": "POST",
+            "sortNum": 30000,
+            "created": "2024-08-27T07:02:50.637Z",
+            "modified": "2024-08-29T04:34:56.840Z",
+            "headers": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"name\": \"New Api\",\n  \"description\": \"Project and task manager Api\"\n}",
+                "form": []
+            }
+        },
+        {
+            "_id": "5c468875-1fa1-40b6-adba-5c0dadcaa16d",
+            "colId": "95e26fd8-2d9f-4e9b-b2d1-8549a3761bff",
+            "containerId": "b52d0508-f103-41ba-b8bd-edf23b63cceb",
+            "name": "post Create",
+            "url": "http://localhost:3000/tasks",
+            "method": "POST",
+            "sortNum": 30000,
+            "created": "2024-08-27T07:02:50.638Z",
+            "modified": "2024-08-29T04:46:52.895Z",
+            "headers": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"name\": \"Task 4\",\n  \"description\": \"Backend has been created with node and express\",\n  \"status\": 2,\n  \"project\": 2\n}",
+                "form": []
+            }
+        },
+        {
+            "_id": "a69150d2-61e8-402b-a3e3-a5018310aebf",
+            "colId": "95e26fd8-2d9f-4e9b-b2d1-8549a3761bff",
+            "containerId": "bc38d1b2-d89b-473f-9dec-b1de975bd60e",
+            "name": "put Update",
+            "url": "http://localhost:3000/projects/1",
+            "method": "PUT",
+            "sortNum": 40000,
+            "created": "2024-08-27T07:02:50.640Z",
+            "modified": "2024-08-29T04:36:28.271Z",
+            "headers": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"name\": \"Create API REST\",\n  \"description\": \"Project and task manager Api\"\n}",
+                "form": []
+            }
+        },
+        {
+            "_id": "7ee8b5c8-b9e0-4ace-bdb8-b7f902fa83ab",
+            "colId": "95e26fd8-2d9f-4e9b-b2d1-8549a3761bff",
+            "containerId": "b52d0508-f103-41ba-b8bd-edf23b63cceb",
+            "name": "put Update",
+            "url": "http://localhost:3000/tasks/2",
+            "method": "PUT",
+            "sortNum": 40000,
+            "created": "2024-08-27T07:02:50.641Z",
+            "modified": "2024-08-29T04:51:22.689Z",
+            "headers": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"name\": \"Task 2\",\n  \"description\": \"Backend has been created with node and express\",\n  \"status\": 1,\n  \"project\": 2\n}",
+                "form": []
+            }
+        },
+        {
+            "_id": "8fc8ab7c-0c2f-4baf-aba2-169a58367c22",
+            "colId": "95e26fd8-2d9f-4e9b-b2d1-8549a3761bff",
+            "containerId": "bc38d1b2-d89b-473f-9dec-b1de975bd60e",
+            "name": "delete One",
+            "url": "http://localhost:3000/projects/11",
+            "method": "DELETE",
+            "sortNum": 50000,
+            "created": "2024-08-27T07:02:50.645Z",
+            "modified": "2024-08-28T22:27:05.382Z",
+            "headers": []
+        },
+        {
+            "_id": "d4ae22b1-1e4c-4bc5-8c46-b842003782b1",
+            "colId": "95e26fd8-2d9f-4e9b-b2d1-8549a3761bff",
+            "containerId": "b52d0508-f103-41ba-b8bd-edf23b63cceb",
+            "name": "delete One",
+            "url": "http://localhost:3000/tasks/4",
+            "method": "DELETE",
+            "sortNum": 50000,
+            "created": "2024-08-27T07:02:50.646Z",
+            "modified": "2024-08-29T04:48:05.893Z",
+            "headers": []
+        }
+    ],
+    "ref": "1PIreyavb8XH_R6Hq15QlfwGkVV4Xq1k54i6cK1AhiRSsvmvKBj9l735Nlk_EKq_8yugiTJFor4eEy-rhV8PUw"
+}
