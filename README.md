@@ -43,36 +43,53 @@ To expose a variable in the server.
     ```shell
     # clone the project
     git clone URL_SSH_PROJECT OR URL_HTTPS_PROJECT
-    cd api-rest-express-typeorm/
+    cd api-rest-projects-and-tasks/
     npm install
     ```
-2.  **Run Project.**
+2.  **Setting environment variables**
 
-    Navigate into your new site’s directory and start it up.
+    You must create the .env file and set the environment variables to allow connecting to the database.
 
     ```shell
-    cd api-rest-express-typeorm/
+      host="" // string - Database Host
+      port="" // number - Database Port
+      user="" // string - Database user
+      password="" // string - Database password
+      database="" // stromg - Database name
+      synchronize="" // boolean - enable database synchronization 
+      NODE_ENV="" // development | production
+    ```
+    Note 1: you must create the database, then use the credentials in the .env file to connect it, then you must enable the synchronize field to true for the TypeORM to create all the tables in the database.
+    
+    Note 2: after having configured the .env file with the environment variables, run the command npm run dev for development or npm run build && npm run start for production and the project will be synchronized with the database.
+    
+4.  **Run Project.**
+
+    Navigate into your new site’s directory and start it up. 
+
+    ```shell
+    cd api-rest-projects-and-tasks/
     # run project in localhost:3000
     npm run dev
     ```
 
-2.  **Start developing.**
+5.  **Start developing.**
 
     Navigate into your new site’s directory and start it up.
 
     ```shell
-    cd api-rest-express-typeorm/
+    cd api-rest-projects-and-tasks/
     npm run build
     npm run start
     ```
 
-3.  **Open the code and start customizing!**
+6.  **Open the code and start customizing!**
 
     Your site is now running at http://localhost:3000!
 
     Edit `src/index.ts` to see your site update in real-time!
 
-4.  **Learn more**
+7.  **Learn more**
 
     - [Express Docs](https://expressjs.com/es/guide/routing.html)
     - [TypeORM Docs](https://typeorm.io/)
@@ -101,6 +118,9 @@ To expose a variable in the server.
   >     - profesoresRoutes.ts
   >   - app.ts
   >   - index.ts
+  > - tools/
+  >   - api_rest_projects_and_tasks.sql
+  >   - thunder-collection_api-rest-projects-and-tasks.json
   > - env.example
   > - .eslintrc.config.mjs
   > - .gitignore
