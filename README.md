@@ -59,9 +59,12 @@ To expose a variable in the server.
       synchronize="" // boolean - enable database synchronization 
       NODE_ENV="" // development | production
     ```
-    Note 1: you must create the database, then use the credentials in the .env file to connect it, then you must enable the synchronize field to true for the TypeORM to create all the tables in the database.
     
-    Note 2: after having configured the .env file with the environment variables, run the command npm run dev for development or npm run build && npm run start for production and the project will be synchronized with the database.
+    ### Step 1:
+    you must create the database, then use the credentials in the .env file to connect it, then you must enable the synchronize field to true for the TypeORM to create all the tables in the database.
+    
+    ### Step 2:
+    After having configured the .env file with the environment variables, run the command npm run dev for development or npm run build && npm run start for production and the project will be synchronized with the database.
     
 4.  **Run Project.**
 
